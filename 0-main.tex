@@ -1,0 +1,87 @@
+\documentclass{article}
+
+% if you need to pass options to natbib, use, e.g.:
+% \PassOptionsToPackage{numbers, compress}{natbib}
+% before loading nips_2017
+%
+% to avoid loading the natbib package, add option nonatbib:
+% \usepackage[nonatbib]{nips_2017}
+
+% \usepackage{nips_2017}
+
+% to compile a camera-ready version, add the [final] option, e.g.:
+\usepackage[final]{nips_2017}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % 
+\usepackage{times}
+\usepackage{color,soul}
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage{bbm}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{ctable}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{setspace}% http://ctan.org/pkg/setspace
+\usepackage{lipsum}%http://ctan.org/pkg/lipsum
+% \usepackage{natbib}
+% \bibliographystyle{plain}
+% \setcitestyle{open={(},close={)}}
+
+\newcolumntype{K}[1]{>{\centering\arraybackslash}p{#1}}
+% \newcolumntype{K2}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\title{Modeling physician variability to prioritize relevant medical record information}
+\author{Mohammadamin Tajgardoon$^1$, Gregory F Cooper$^{1, 2}$, Andrew J King$^3$, Gilles Clermont$^3$\\
+\textbf{Harry Hochheiser$^{1, 2}$, Milos Hauskrecht$^{1, 4}$, Dean F Sittig$^5$, Shyam Visweswaran$^{1, 2}$}\\
+      $^1$Intelligent Systems Program, University of Pittsburgh,
+      Pittsburgh, PA, USA \\
+      $^2$Department of Biomedical Informatics, University of Pittsburgh,
+      Pittsburgh, PA, USA\\
+      $^3$Department of Critical Care Medicine, University of Pittsburgh, Pittsburgh, PA, USA\\
+      $^4$Department of Computer Science, University of Pittsburgh, Pittsburgh, PA, USA\\
+      $^5$Department of Biomedical Informatics, University of Texas Health Science Center, Houston, TX, USA\\
+    %   \texttt{shv3@pitt.edu}
+      }
+      
+\newcommand{\todo}{ {\bf TODO} }
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+\newcommand{\tab}{\hspace*{2em}}
+\newcommand{\PP}{\mathbb{P}} 
+\newcommand{\EE}{\mathbb{E}}
+\renewcommand{\baselinestretch}{1}
+% \nipsfinalcopy % Uncomment for camera-ready version
+
+\begin{document} 
+\maketitle 
+\input{1-abstract}
+\input{2-introduction} 
+\input{3-background}
+\input{4-method}
+\input{5-results} 
+\input{6-discussion}   
+\input{7-acknowledgement}
+% \input{refs}
+\bibliographystyle{unsrt}
+\bibliography{0-main}
+\input{8-appendix}
+% \setlength{\bibsep}{0pt}
+
+\end{document}
+

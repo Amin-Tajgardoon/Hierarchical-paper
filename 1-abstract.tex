@@ -1,0 +1,19 @@
+\begin{abstract}
+
+\textbf{Objective}\\
+Patient information can be retrieved more efficiently in electronic medical record (EMR) systems by using machine learning models that predict which information a physician will seek in a clinical context. However, information-seeking behavior varies across EMR users. To explicitly account for this variability, we derived hierarchical models and compared their performance to non-hierarchical models in identifying relevant patient information in intensive care unit (ICU) cases.\\
+
+\textbf{Materials and Methods}\\
+Critical care physicians reviewed ICU patient cases and selected data items relevant for presenting at morning rounds. Using patient EMR data as predictors, we derived hierarchical logistic regression (HLR) and standard logistic regression (LR) models to predict their relevance. \\
+
+\textbf{Results}\\
+In 73 pairs of HLR and LR models, the HLR models achieved an area under the ROC curve of 0.81, 95\% CI [0.80, 0.82], which was statistically significantly higher than that of LR models (0.75, 95\% CI [0.74-0.76]). Further, the HLR models achieved statistically significantly lower expected calibration error (0.07, 95\% CI [0.06-0.08]) than LR models (0.16, 95\% CI [0.14-0.17]).\\
+
+\textbf{Discussion}\\
+The physician reviewers demonstrated variability in selecting relevant data. Our results show that HLR models perform significantly better than LR models with respect to both discrimination and calibration. This is likely due to explicitly modeling physician-related variability.\\
+
+\textbf{Conclusion}\\
+Hierarchical models can yield better performance when there is physician-related variability as in the case of identifying relevant information in the EMR.\\
+
+\textbf{Keywords}: Electronic medical records, Information-seeking behavior, Machine learning, Physician variability, Hierarchical modeling
+\end{abstract}
